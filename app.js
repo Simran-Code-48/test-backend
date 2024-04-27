@@ -20,7 +20,7 @@ app.post('/api/todos', (req, res) => {
 });
 
 // Read All Todos
-app.get('/api/todos', (req, res) => {
+app.get('/', (req, res) => {
     res.json(todos);
 });
 
